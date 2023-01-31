@@ -26,6 +26,16 @@ TEST(AvlTreeTest, DeleteTest) {
     ASSERT_EQ(tree[3], "Third");
 }
 
+TEST(AVLTreeTest, ClearTest){
+    avltree<int, std::string> tree;
+    tree.insert(1, "First");
+    tree.insert(2, "Second");
+    tree.insert(3, "Third");
+    tree.clear();
+
+    ASSERT_TRUE(tree.isEmpty());
+}
+
 
 int main(int argc, char **argv) {
     avltree<int, std::string> tree;
