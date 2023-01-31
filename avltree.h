@@ -1,5 +1,5 @@
-#ifndef LAB3_AVLTREE__AVLTREE_H
-#define LAB3_AVLTREE__AVLTREE_H
+#ifndef AVLTREE_H
+#define AVLTREE_H
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -335,4 +335,4 @@ avltree<Key, Info> count_words(std::istream& is){
     return tree;
 }
 
-#endif //LAB3_AVLTREE__AVLTREE_H
+#endif //AVLTREE_H
